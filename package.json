@@ -1,0 +1,15 @@
+{
+  "name": "spblog",
+  "version": "1.0.0",
+  "description": "Super12138's Blog",
+  "scripts": {
+    "blog:dev": "vitepress dev blog",
+    "blog:build": "vitepress build blog",
+    "blog:preview": "vitepress preview blog"
+  },
+  "author": "Super12138",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.63"
+  }
+}
