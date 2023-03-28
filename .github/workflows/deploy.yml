@@ -22,7 +22,7 @@ jobs:
           node-version: 18
       - run: npm install
       - name: Build
-        run: npm run docs:build
+        run: npm run blog:build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
