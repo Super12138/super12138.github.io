@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "Super12138的个人博客（测试）"
-  text: "Super12138的个人博客（测试）"
-  tagline: Super12138的个人博客（测试）
+  name: "Super12138"
+  text: "博客&应用"
+  tagline: 个人博客和应用文档
   actions:
     - theme: brand
-      text: 立即阅读
-      link: /blog-welcome
+      text: 立即查看
+      link: /apps/all
     - theme: alt
       text: 在 Github 上查看
       link: https://github.com/Super12138/super12138.github.io
