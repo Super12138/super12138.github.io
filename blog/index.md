@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -9,15 +8,13 @@ hero:
   actions:
     - theme: brand
       text: 立即查看
-      link: /apps/all
+      link: /welcome
     - theme: alt
       text: 在 Github 上查看
       link: https://github.com/Super12138/super12138.github.io
 
 features:
-  - title: 名称
-    details: 介绍
-  - title: 名称
-    details: 介绍
+  - title: Hash Checker<Badge type="tip" text="应用" />
+    details: 一个免费的，开源的，简单易用的文件校验器。
 ---
 
