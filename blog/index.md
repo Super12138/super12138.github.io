@@ -14,7 +14,7 @@ hero:
       link: https://github.com/Super12138/super12138.github.io
 
 features:
-  - title: Hash Checker<Badge type="tip" text="应用" />
+  - title: Hash Checker
     details: 一个免费的，开源的，简单易用的文件校验器。
 ---
 
