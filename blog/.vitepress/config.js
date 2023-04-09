@@ -8,7 +8,6 @@ export default defineConfig({
   lang: "zh-CN",
   lastUpdated: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
       {
@@ -34,6 +33,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Super12138/super12138.github.io/' }
-    ]
+    ],
+
+    footer: {
+      copyright: 'Copyright © 2019-2023 Super12138'
+    }
   }
 })
