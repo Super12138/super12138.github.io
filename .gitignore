@@ -104,3 +104,4 @@ dist
 .tern-port
 
 cache
+package-lock.json
