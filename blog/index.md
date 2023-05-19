@@ -16,4 +16,6 @@ hero:
 features:
   - title: Hash Checker
     details: 一个免费的，开源的，简单易用的文件校验器。
+  - title: 官方网站查找器（Official Website Finder）
+    details: 简单，快速的查找官方网站
 ---
