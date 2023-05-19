@@ -17,6 +17,12 @@ macOS 支持 macOS 10.11 (El Capitan) 以及更高版本，并且支持 Apple Si
 - [macOS（Intel 芯片版）](https://github.com/Super12138/Hash-Checker/releases/download/1.0.5/Hash.Checker-1.0.5.dmg)
 - [macOS arm64（Apple 芯片版）](https://github.com/Super12138/Hash-Checker/releases/download/1.0.5/Hash.Checker-1.0.5-arm64.dmg)
 
+## 网页版 <Badge type="tip" text="1.0.3" />
+::: warning
+从理论来说本应用网页版支持 IE11+ 和其他主流浏览器的最新版本，但是我推荐您使用 Chromium 内核（如：Chrome（Chromium）、Edge）或主流的浏览器进行访问，以确保您的体验
+:::
+- [点击此处前往网页版](https://super12138.github.io/Hash-Checker/webapp)
+
 ## Beta <Badge type="warning" text="目前没有Beta版本" />
 Beta 版本包括最新的功能和错误修复，但是也十分不稳定。你可以下载体验，遇到问题可在 [Gihub Issues](https://github.com/Super12138/Hash-Checker/issues) 上反馈
 ::: warning
