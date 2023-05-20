@@ -14,19 +14,27 @@ export default defineConfig({
         text: '应用',
         items: [
           { text: '全部', link: '/apps' },
-          { text: 'Hash Checker', link: '/hschecker/intro' }
+          { text: 'Hash Checker', link: '/hschecker/intro' },
+          { text: '官方网站查找器（Official Website Finder）', link: '/owf/intro' },
         ]
       }
     ],
 
     sidebar: [
-      {text: '全部应用', link: '/apps'},
+      { text: '全部应用', link: '/apps'},
       {
         text: 'Hash Checker',
         items: [
           { text: '简介', link: '/hschecker/intro' },
           { text: '下载', link: '/hschecker/download' },
           { text: '使用', link: '/hschecker/use' },
+        ]
+      },
+      {
+        text: '官方网站查找器（Official Website Finder）',
+        items: [
+          { text: '简介', link: '/owf/intro' },
+          { text: '下载', link: '/owf/download' },
         ]
       }
     ],
