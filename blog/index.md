@@ -5,6 +5,9 @@ hero:
   name: "Super12138"
   text: "博客&应用"
   tagline: 个人博客和应用文档
+  image:
+    src: /Super12138_S.svg
+    alt: Super12138
   actions:
     - theme: brand
       text: 立即查看
@@ -23,3 +26,24 @@ features:
     title: 官方网站查找器（Official Website Finder）
     details: 简单，快速的查找官方网站
 ---
+<style>
+:root {
+  /*--vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #C00000 30%, #002060);*/
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #C00000 37%, #002060 50%);
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+}
+</style>

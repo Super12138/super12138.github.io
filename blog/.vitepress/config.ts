@@ -9,7 +9,7 @@ export default defineConfig({
   lastUpdated: true,
   head: [
     [
-      'link', { rel: 'icon', href: '/favicon.ico' }
+      'link', { rel: 'icon', href: '/Super12138.svg' }
     ]
   ],
   themeConfig: {
