@@ -7,6 +7,11 @@ export default defineConfig({
   base: "/",
   lang: "zh-CN",
   lastUpdated: true,
+  head: [
+    [
+      'link', { rel: 'icon', href: '/favicon.ico' }
+    ]
+  ],
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
@@ -21,7 +26,7 @@ export default defineConfig({
     ],
 
     sidebar: [
-      { text: '全部应用', link: '/apps'},
+      { text: '全部应用', link: '/apps' },
       {
         text: 'Hash Checker',
         items: [

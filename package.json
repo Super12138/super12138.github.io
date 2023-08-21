@@ -1,11 +1,16 @@
 {
   "name": "spblog",
   "version": "1.0.0",
-  "description": "Super12138's Blog",
+  "description": "应用&博客",
+  "type": "module",
   "scripts": {
     "blog:dev": "vitepress dev blog",
     "blog:build": "vitepress build blog",
     "blog:preview": "vitepress preview blog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Super12138/super12138.github.io.git"
   },
   "author": "Super12138",
   "license": "MIT",
@@ -14,6 +19,6 @@
   },
   "homepage": "https://github.com/Super12138/super12138.github.io#readme",
   "devDependencies": {
-    "vitepress": "^1.0.0-beta.3"
+    "vitepress": "^1.0.0-rc.4"
   }
 }
