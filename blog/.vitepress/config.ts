@@ -9,7 +9,7 @@ export default defineConfig({
   lastUpdated: true,
   head: [
     [
-      'link', { rel: 'icon', href: '/Super12138.svg' }
+      'link', { rel: 'icon', href: '/Super12138.png' }
     ]
   ],
   themeConfig: {
@@ -21,6 +21,7 @@ export default defineConfig({
           { text: '全部', link: '/apps' },
           { text: 'Hash Checker', link: '/hschecker/intro' },
           { text: '官方网站查找器（Official Website Finder）', link: '/owf/intro' },
+          { text: '时间工具箱（Time Tool Box）', link: '/ttb/intro' },
         ]
       }
     ],
@@ -40,6 +41,13 @@ export default defineConfig({
         items: [
           { text: '简介', link: '/owf/intro' },
           { text: '下载', link: '/owf/download' },
+        ]
+      },
+      {
+        text: '时间工具箱（Time Tool Box）',
+        items: [
+          { text: '简介', link: '/ttb/intro' },
+          { text: '下载', link: '/ttb/download' },
         ]
       }
     ],

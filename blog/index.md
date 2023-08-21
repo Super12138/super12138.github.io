@@ -6,7 +6,7 @@ hero:
   text: "博客&应用"
   tagline: 个人博客和应用文档
   image:
-    src: /Super12138_S.svg
+    src: /Super12138_S.png
     alt: Super12138
   actions:
     - theme: brand
@@ -18,11 +18,15 @@ hero:
 
 features:
   - icon: 
-      src: /Hash Checker Logo.png
+      src: /Logos/Hash Checker Logo.png
     title: Hash Checker
     details: 一个免费的，开源的，简单易用的文件校验器。
   - icon: 
-      src: /Official Website Finder Logo.png
+      src: /Logos/Official Website Finder Logo.png
+    title: 官方网站查找器（Official Website Finder）
+    details: 简单，快速的查找官方网站
+  - icon: 
+      src: /Logos/Time Tool Box Logo.png
     title: 官方网站查找器（Official Website Finder）
     details: 简单，快速的查找官方网站
 ---

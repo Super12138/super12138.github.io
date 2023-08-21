@@ -1,4 +1,4 @@
-# OfficialWebsiteFinder
+# 官方网站查找器（Official Website Finder）
 ![GitHub](https://img.shields.io/github/license/Super12138/OfficialWebsiteFinder?style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/Super12138/OfficialWebsiteFinder?style=flat-square)
 
