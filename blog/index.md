@@ -27,7 +27,7 @@ features:
     details: 简单，快速的查找官方网站
   - icon: 
       src: /Logos/Time Tool Box Logo.png
-    title: 时间工具箱（Time Tool Box)
+    title: 时间工具箱（Time Tool Box）
     details: 一个开源，无广告，简单的时间工具箱
 ---
 <style>
