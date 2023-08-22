@@ -20,15 +20,15 @@ features:
   - icon: 
       src: /Logos/Hash Checker Logo.png
     title: Hash Checker
-    details: 一个免费的，开源的，简单易用的文件校验器。
+    details: 一个免费开源的，无广告无追踪器的，简单易用的文件校验器。
   - icon: 
       src: /Logos/Official Website Finder Logo.png
     title: 官方网站查找器（Official Website Finder）
     details: 简单，快速的查找官方网站
   - icon: 
       src: /Logos/Time Tool Box Logo.png
-    title: 官方网站查找器（Official Website Finder）
-    details: 简单，快速的查找官方网站
+    title: 时间工具箱（Time Tool Box)
+    details: 一个开源，无广告，简单的时间工具箱
 ---
 <style>
 :root {
