@@ -14,7 +14,7 @@ hero:
       link: /welcome
     - theme: alt
       text: 在 Github 上查看
-      link: https://github.com/Super12138/super12138.github.io
+      link: https://github.com/Super12138/
 
 features:
   - icon: 
