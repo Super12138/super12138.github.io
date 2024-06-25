@@ -3,32 +3,27 @@ layout: home
 
 hero:
   name: "Super12138"
-  text: "博客&应用"
-  tagline: 个人博客和应用文档
+  text: "应用文档"
   image:
     src: /Super12138_S.png
     alt: Super12138
   actions:
     - theme: brand
       text: 立即查看
-      link: /welcome
+      link: /apps
     - theme: alt
       text: 在 Github 上查看
       link: https://github.com/Super12138/
 
 features:
   - icon: 
-      src: /Logos/Hash Checker Logo.png
+      src: /icons/Hash-Checker.png
     title: Hash Checker
     details: 一个免费开源的，无广告无追踪器的，简单易用的文件校验器。
   - icon: 
-      src: /Logos/Official Website Finder Logo.png
-    title: 官方网站查找器（Official Website Finder）
-    details: 简单，快速的查找官方网站
-  - icon: 
-      src: /Logos/Time Tool Box Logo.png
-    title: 时间工具箱（Time Tool Box）
-    details: 一个开源，无广告，简单的时间工具箱
+      src: /icons/ToDo.png
+    title: 待办
+    details: 遵循 Material Design 3 的待办应用
 ---
 <style>
 :root {
