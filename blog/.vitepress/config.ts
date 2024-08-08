@@ -66,7 +66,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/Super12138/super12138.github.io/edit/main/docs/:path',
+      pattern: 'https://github.com/Super12138/super12138.github.io/edit/main/blog/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
