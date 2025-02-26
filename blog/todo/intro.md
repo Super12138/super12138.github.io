@@ -18,12 +18,6 @@
 - 任务优先级
 - ……
 
-# ⬇️ 下载
-[前往 GitHub Release](https://github.com/Super12138/ToDo/releases/)
-
-或者从 F-Droid 上下载
-[<img src="./art/get-it-on-fdroid-zh-cn.png" height="100" />](https://f-droid.org/packages/cn.super12138.todo)
-
 # 📸 截图
 | ![主界面（浅色）](https://s2.loli.net/2025/02/17/mDz9jFIHW23YPUK.png) | ![主界面（深色）](https://s2.loli.net/2025/02/17/7ZLoHRifKka93c1.png) |
 | --- | --- |
