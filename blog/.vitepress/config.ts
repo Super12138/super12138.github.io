@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { generateSidebar } from 'vitepress-sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,35 +15,21 @@ export default defineConfig({
     ],
     themeConfig: {
         nav: [
-            { text: '主页', link: '/' },
             {
                 text: '应用',
                 items: [
-                    { text: '全部', link: '/apps' },
-                    { text: 'Hash Checker', link: '/hschecker/intro' },
-                    { text: '待办', link: '/todo/intro' },
+                    { text: 'Hash Checker', link: '/apps/hschecker/intro' },
+                    { text: '待办', link: '/apps/todo/intro' },
                 ]
             }
         ],
 
-        sidebar: [
-            { text: '应用', link: '/apps' },
-            {
-                text: 'Hash Checker',
-                items: [
-                    { text: '简介', link: '/hschecker/intro' },
-                    { text: '下载', link: '/hschecker/download' },
-                    { text: '使用', link: '/hschecker/use' },
-                ]
-            },
-            {
-                text: '待办',
-                items: [
-                    { text: '简介', link: '/todo/intro' },
-                    { text: '下载', link: '/todo/download' },
-                ]
-            }
-        ],
+        sidebar: generateSidebar({
+            documentRootPath: 'blog',
+            useTitleFromFrontmatter: true,
+            useFolderTitleFromIndexFile: true,
+            sortMenusByFrontmatterOrder: true
+        }),
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/Super12138/super12138.github.io/' }

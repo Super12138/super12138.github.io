@@ -1,11 +1,17 @@
+---
+title: 下载
+order: 2
+---
+
 # 下载
 Hash Checker 支持 Windows 和 macOS 双平台，你可以在下方找到 Windows 和 macOS 应用的下载链接
 
 ## Windows <Badge type="tip" text="2.2.1" />
 ::: warning
 Windows 支持 Windows 10 或更高版本和 64 位架构。如要在 Windows 10 以下旧版本或 32 位、arm64架构的电脑上使用，请尝试使用[网页版](https://super12138.github.io/Hash-Checker/)
-请根据你的设备选择您要下载的版本
 :::
+
+**请根据你的设备选择您要下载的版本**
 - [Windows x64 安装器版](https://github.com/Super12138/Hash-Checker/releases/download/2.2.1/Hash.Checker-installer.exe)
 - [Windows x64 便携版](https://github.com/Super12138/Hash-Checker/releases/download/2.2.1/Hash.Checker-portable.exe)
 
@@ -13,7 +19,6 @@ Windows 支持 Windows 10 或更高版本和 64 位架构。如要在 Windows 10
 ::: warning
 macOS 支持 macOS 10.11 (El Capitan) 以及更高版本，并且支持 Apple Silicon (arm64) 设备
 <br>
-请根据你的设备选择您要下载的版本
 :::
 
 ::: tip
@@ -26,7 +31,7 @@ macOS 用户如需使用可以使用[网页版](https://super12138.github.io/Has
 
 ## 网页版 <Badge type="tip" text="2.3.0" />
 ::: warning
-本应用理论支持所有主流浏览器的较新版本。由于使用了 Web 的新特性，所以在某些过旧版本的浏览器上会出现无法计算 Hash 值的情况。
+本应用理论支持所有主流浏览器的**较新版本**。由于使用了 Web 的新特性，所以在某些过旧版本的浏览器上会出现无法计算 Hash 值的情况。
 <br>
 推荐您使用基于 [Chromium](https://www.chromium.org/) 内核构建的浏览器（如 [Chrome](https://www.google.cn/chrome/)、[Edge](https://www.microsoft.com/zh-cn/edge/download) 等）进行访问，以确保您的体验。
 <br>
