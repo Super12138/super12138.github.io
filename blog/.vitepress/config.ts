@@ -26,6 +26,7 @@ export default defineConfig({
 
         sidebar: generateSidebar({
             documentRootPath: 'blog',
+            collapsed: true,
             useTitleFromFrontmatter: true,
             useFolderTitleFromIndexFile: true,
             sortMenusByFrontmatterOrder: true
