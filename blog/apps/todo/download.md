@@ -13,7 +13,7 @@ order: 2
 ## Android <Badge type="tip" text="2.1.2" />
 - [在 GitHub Release 上下载](https://github.com/Super12138/ToDo/releases/)
 
-待办也在上架了 F-Droid，你可以[安装 F-Droid](https://f-droid.org/) 来安装待办并获得更新
+待办也上架了 F-Droid，你可以[安装 F-Droid](https://f-droid.org/) 来安装待办并获得更新
 
 - [从 F-Droid 上下载](https://f-droid.org/packages/cn.super12138.todo)
 
