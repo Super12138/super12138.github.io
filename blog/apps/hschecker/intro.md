@@ -24,13 +24,6 @@ order: 1
 - 自动检查更新
 - PWA（渐进式 Web 应用）
 
-## 📒 使用
-[简单使用方法](https://super12138.github.io/hschecker/use.html)
-
-## ⬇️ 下载
-- 离线版 V2.2.1[GitHub Release](https://github.com/Super12138/Hash-Checker/releases) 
-- 在线版 v2.3.0[Github Page](https://super12138.github.io/Hash-Checker/)
-
 ## 📸 截图
 | ![主界面（浅色）](https://s2.loli.net/2024/10/25/rF6tqainNAcDvIk.png) | ![主界面（深色）](https://s2.loli.net/2024/10/25/uNl58FGETgfKUXm.png) |
 | --- | --- |
