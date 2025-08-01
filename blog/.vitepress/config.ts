@@ -36,6 +36,7 @@ export default defineConfig({
         ],
 
         footer: {
+            message: "所有文章遵循 CC BY-NC-ND 4.0 协议 \n Released under the CC BY-NC-ND 4.0 licence",
             copyright: `版权所有 © 2019-${new Date().getFullYear()} Super12138`
         },
 
