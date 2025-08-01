@@ -20,6 +20,6 @@
   "homepage": "https://github.com/Super12138/super12138.github.io#readme",
   "devDependencies": {
     "vitepress": "^1.6.3",
-    "vitepress-sidebar": "^1.31.1"
+    "vitepress-sidebar": "^1.33.0"
   }
 }
