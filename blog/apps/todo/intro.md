@@ -1,6 +1,7 @@
 ---
 title: 介绍
 order: 1
+prev: false
 ---
 
 ![应用界面一览](https://s2.loli.net/2025/02/17/l7soMcfm6HJRg8t.png)
