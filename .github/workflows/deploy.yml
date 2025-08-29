@@ -25,19 +25,25 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4.1.0
+        with:
+          version: latest
+
       - name: Setup Node
         uses: actions/setup-node@v4.4.0
         with:
-          node-version: 22
+          node-version: 24
+          cache: pnpm
 
       - name: Setup Pages
         uses: actions/configure-pages@v5.0.0
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build with VitePress
-        run: npm run blog:build
+        run: pnpm run blog:build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4.0.0
