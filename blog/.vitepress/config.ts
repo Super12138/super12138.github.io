@@ -64,6 +64,49 @@ export default defineConfig({
         darkModeSwitchLabel: "主题",
         lightModeSwitchTitle: "切换到浅色模式",
         darkModeSwitchTitle: "切换到深色模式",
+
+        search: {
+            provider: "local",
+            options: {
+                miniSearch: {
+                    options: {
+                        // `tokenize`: 对备索引内容的分词器。
+                        // `text`: 备索引内容，由 `extractField` 提供。
+                        tokenize: (text) => {
+                            // 这种拆分方式可以在遇到英数字时以单词拆分，
+                            // 这样做是为了更全面地匹配非英数字的内容，
+                            // 同时避免单字母或单数字拆分造成的无意义匹配。
+                            return text.match(/[A-Za-z0-9]+|./g)?.filter(Boolean) ?? [];
+                        },
+                    },
+                    searchOptions: {
+                        // 完整匹配检索关键字（避免检索单词时出现单字内容）。
+                        combineWith: "AND",
+                    },
+                },
+                translations: {
+                    button: {
+                        buttonText: "搜索内容",
+                        buttonAriaLabel: "搜索内容",
+                    },
+                    modal: {
+                        displayDetails: "显示详细搜索结果",
+                        resetButtonTitle: "清空搜索关键字",
+                        backButtonTitle: "返回",
+                        noResultsText: "无法找到",
+                        footer: {
+                            selectText: "选择",
+                            selectKeyAriaLabel: "Enter 键",
+                            navigateText: "切换",
+                            navigateUpKeyAriaLabel: "向上箭头",
+                            navigateDownKeyAriaLabel: "向下箭头",
+                            closeText: "关闭",
+                            closeKeyAriaLabel: "Esc 键",
+                        },
+                    },
+                },
+            }
+        }
     },
     markdown: {
         codeCopyButtonTitle: "复制代码",
