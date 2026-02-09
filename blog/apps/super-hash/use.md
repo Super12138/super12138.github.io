@@ -5,11 +5,11 @@ next: false
 ---
 
 # 使用
-你可以打开网页版或本地版的 `Hash Checker` 同步操作
+你可以打开网页版或本地版的 `Super Hash` 同步操作
 
 ## 快速入门
-进入 `Hash Checker` ，你将会看到如下界面
-![Hash Checker 的主界面](https://s2.loli.net/2024/10/25/rF6tqainNAcDvIk.png)
+进入 `Super Hash` ，你将会看到如下界面
+![Super Hash 的主界面](https://s2.loli.net/2024/10/25/rF6tqainNAcDvIk.png)
 
 ### 计算 Hash
 
@@ -19,7 +19,7 @@ next: false
 
 ![通过拖拽文件选择文件](https://s2.loli.net/2024/10/25/LpPQvFUrYeG6hdB.png)
 
-`Hash Checker` 提供了多种生成模式：
+`Super Hash` 提供了多种生成模式：
 - MD5
 - SHA1
 - SHA3
@@ -27,13 +27,13 @@ next: false
 - SHA384
 - SHA512
 
-当然，`Hash Checker` 也支持校验模式，你只需要在`模式`菜单中选择`校验`，然后在`校验值`文本框中输入你获取到的校验值即可。
+当然，`Super Hash` 也支持校验模式，你只需要在`模式`菜单中选择`校验`，然后在`校验值`文本框中输入你获取到的校验值即可。
 
 #### 开始计算
 点击`检查`即可开始计算
 
 :::tip
-`Hash Checker` 使用分片读取文件以保证读取速度和内存占用，你可以在`设置`里调整单次缓存文件的大小，详见[单次缓存文件大小](#单次缓存文件大小)
+`Super Hash` 使用分片读取文件以保证读取速度和内存占用，你可以在`设置`里调整单次缓存文件的大小，详见[单次缓存文件大小](#单次缓存文件大小)
 :::
 
 传输时间在不同设备上有不同，你可以参考页面下方的进度条和预计时间
@@ -51,7 +51,7 @@ next: false
 :::
 
 #### 单次缓存大小
-为了避免单次读取文件造成无响应，`Hash Checker` 采用了 `Web Worker` 和分片读取的方法来计算文件的 `Hash` 值。本设置项就是为了自定义单次缓存文件大小而创建的。
+为了避免单次读取文件造成无响应，`Super Hash` 采用了 `Web Worker` 和分片读取的方法来计算文件的 `Hash` 值。本设置项就是为了自定义单次缓存文件大小而创建的。
 这是设置单次缓存文件大小的相关代码；在这段代码中，`chunkSize`即是您设定好的单次缓存文件的大小。
 ```TypeScript
 const CHUNK_SIZE: number = chunkSize * 1024;

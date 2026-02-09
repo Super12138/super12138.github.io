@@ -8,7 +8,7 @@ prev: false
     <img src="https://cdn.jsdelivr.net/gh/Super12138/Hash-Checker@fd35e8a/build/appicon.svg" width="30%">
 </p>
 
-# Hash Checker
+# Super Hash
 ![许可证](https://img.shields.io/github/license/Super12138/Hash-Checker?style=flat-square)
 ![GitHub Releases 总下载量](https://img.shields.io/github/downloads/Super12138/Hash-Checker/total?style=flat-square)
 ![最新 GitHub Release](https://img.shields.io/github/v/release/Super12138/Hash-Checker?style=flat-square)

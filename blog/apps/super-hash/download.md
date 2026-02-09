@@ -4,7 +4,7 @@ order: 2
 ---
 
 # 下载
-Hash Checker 支持 Windows 和 macOS 双平台，你可以在下方找到 Windows 和 macOS 应用的下载链接
+Super Hash 支持 Windows 和 macOS 双平台，你可以在下方找到 Windows 和 macOS 应用的下载链接
 
 ## Windows <Badge type="tip" text="2.2.1" />
 ::: warning

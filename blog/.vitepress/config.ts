@@ -14,8 +14,9 @@ export default defineConfig({
             {
                 text: "应用",
                 items: [
-                    { text: "Hash Checker", link: "/apps/hschecker/intro" },
-                    { text: "待办", link: "/apps/todo/intro" },
+                    { text: "Super Hash", link: "/apps/super-hash/intro" },
+                    { text: "VerveDo", link: "/apps/vervedo/intro" },
+                    { text: "问心 Ask Yourself", link: "/apps/ask-yourself/intro" },
                 ],
             },
         ],
