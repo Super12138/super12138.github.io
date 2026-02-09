@@ -44,8 +44,6 @@ VerveDo 不会自动更新，建议[订阅 GitHub Release 发行通知](https://
 
 或者[从 F-Droid 上下载](https://f-droid.org/packages/cn.super12138.todo)
 
-[<img src="./art/get-it-on-fdroid-zh-cn.png" height="100" />](https://f-droid.org/packages/cn.super12138.todo)
-
 # 📸 截图
 | ![概览界面（浅色）](https://s2.loli.net/2026/02/09/nhuMmF8L7Oqk4dp.png) | ![概览界面（深色）](https://s2.loli.net/2026/02/09/Oari6zwC14gLPNl.png) |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
