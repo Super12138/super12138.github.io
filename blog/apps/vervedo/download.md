@@ -1,7 +1,6 @@
 ---
 title: 下载
 order: 2
-next: false
 ---
 
 # 下载
