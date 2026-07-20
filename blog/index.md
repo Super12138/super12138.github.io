@@ -18,12 +18,12 @@ hero:
 features:
   - icon: 
       src: /icons/Hash-Checker.png
-    title: Hash Checker
+    title: Super Hash
     details: 一个免费开源的，无广告无追踪器的，简单易用的文件校验器。
   - icon: 
       src: /icons/ToDo.png
-    title: 待办
-    details: 遵循 Material Design 3 的待办应用
+    title: VerveDo
+    details: 一个简约的、遵循 Material 3 Expressive 的待办应用
 ---
 <style>
 :root {
