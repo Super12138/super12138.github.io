@@ -4,32 +4,48 @@ order: 2
 ---
 
 # 下载
-Super Hash 支持 Windows 和 macOS 双平台，你可以在下方找到 Windows 和 macOS 应用的下载链接
+Super Hash 支持 Windows 和 macOS 双平台，你可以在下方找到 Windows 和 macOS 应用的下载链接。
 
-## Windows <Badge type="tip" text="2.2.1" />
+## 前置条件（仅限桌面端）
+我使用 `Tauri` 框架来进行桌面端的开发。`Tauri` 依赖于系统 `WebView`，请确保您的设备中具有相应的运行时。当然，这也会在应用安装过程中进行检查。
+
+使用 `Windows` 设备举例，设备中必须具有 [WebView2](https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/) 运行时。
+
+通常情况下，`WebView` 在系统出厂时预装，**因此您无需担心**。如果没有，将会在安装过程中自动使用[由 Microsoft 提供的在线安装器](https://developer.microsoft.com/microsoft-edge/webview2/#download)下载并安装，会消耗200-300MB的数据流量。如果你的设备中没有安装 `WebView` 且当前的环境无法访问互联网，请考虑在其他设备上[访问此链接](https://developer.microsoft.com/microsoft-edge/webview2/#download)以下载固定版本的 `WebView` 安装器。
+
+## Windows <Badge type="tip" text="3.0.0" />
 ::: warning
-Windows 支持 Windows 10 或更高版本和 64 位架构。如要在 Windows 10 以下旧版本或 32 位、arm64架构的电脑上使用，请尝试使用[网页版](https://super12138.github.io/Hash-Checker/)
+Windows 支持 Windows 10 或更高版本和 64 位架构。如要在 Windows 10 以下旧版本或 32 位、arm64架构的电脑上使用，请尝试使用[网页版](https://super-hash.pages.dev/)
 :::
 
-**请根据你的设备选择您要下载的版本**
-- [Windows x64 安装器版](https://github.com/Super12138/Hash-Checker/releases/download/2.2.1/Hash.Checker-installer.exe)
-- [Windows x64 便携版](https://github.com/Super12138/Hash-Checker/releases/download/2.2.1/Hash.Checker-portable.exe)
+### x64 架构
+- [安装包 (.exe)](https://github.com/Super12138/Hash-Checker/releases/download/3.0.0/Super.Hash_3.0.0_x64-setup.exe)
+- [便携版 (.exe)](https://github.com/Super12138/Hash-Checker/releases/download/3.0.0/Super.Hash_3.0.0_x64-portable.exe)
+- [安装包 (.msi)](https://github.com/Super12138/Hash-Checker/releases/download/3.0.0/Super.Hash_3.0.0_x64_zh-CN.msi)
 
-## macOS <Badge type="tip" text="2.2.1" />
+### x86 架构
+- [安装包 (.exe)](https://github.com/Super12138/Hash-Checker/releases/download/3.0.0/Super.Hash_3.0.0_x86-setup.exe)
+- [便携版 (.exe)](https://github.com/Super12138/Hash-Checker/releases/download/3.0.0/Super.Hash_3.0.0_x86-portable.exe)
+- [安装包 (.msi)](https://github.com/Super12138/Hash-Checker/releases/download/3.0.0/Super.Hash_3.0.0_x86_zh-CN.msi)
+
+### Microsoft Store
+如果你希望更简单的进行安装并接收来自Microsoft Store的自动更新，请前往 Microsoft Store 进行下载，功能上没有任何差别。
+
+<a href="https://apps.microsoft.com/detail/9nqq6z539qv2?referrer=appbadge&mode=direct">
+	<img src="https://get.microsoft.com/images/zh-cn%20dark.svg" width="200"/>
+</a>
+
+## macOS <Badge type="tip" text="3.0.0" />
 ::: warning
 macOS 支持 macOS 10.11 (El Capitan) 以及更高版本，并且支持 Apple Silicon (arm64) 设备
 <br>
 :::
 
-::: tip
-**已知问题**
-<br>
-当前 `2.2.1` 版本由于使用 `Wails` 框架在打包上传时出现应用损坏，无法打开，故暂不提供下载方式，敬请谅解。
-<br>
-macOS 用户如需使用可以使用[网页版](https://super12138.github.io/Hash-Checker/)，或前往 [Github Actions](https://github.com/Super12138/Hash-Checker/actions/workflows/build.yml) 下载使用 `Tauri` 框架构建的版本
-:::
+- [通用架构 (.dmg)](https://github.com/Super12138/Hash-Checker/releases/download/3.0.0/Super.Hash_3.0.0_universal.dmg)
+- [Intel 版 (.dmg)](https://github.com/Super12138/Hash-Checker/releases/download/3.0.0/Super.Hash_3.0.0_x64.dmg)
+- [Apple Silicon 版 (.dmg)](https://github.com/Super12138/Hash-Checker/releases/download/3.0.0/Super.Hash_3.0.0_aarch64.dmg)
 
-## 网页版 <Badge type="tip" text="2.3.0" />
+## 网页版 <Badge type="tip" text="4.0.0-dev" />
 ::: warning
 本应用理论支持所有主流浏览器的**较新版本**。由于使用了 Web 的新特性，所以在某些过旧版本的浏览器上会出现无法计算 Hash 值的情况。
 <br>
@@ -37,7 +53,7 @@ macOS 用户如需使用可以使用[网页版](https://super12138.github.io/Has
 <br>
 网页版支持PWA
 :::
-- [点击此处前往网页版](https://super12138.github.io/Hash-Checker/)
+- [点击此处前往网页版](https://super-hash.pages.dev/)
 
 ## Beta
 此版本是测试版本，相比正式版更不稳定。但它包含了比 Dev 版更稳定的功能和安全更新
