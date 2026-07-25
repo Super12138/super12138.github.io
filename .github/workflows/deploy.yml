@@ -45,19 +45,12 @@ jobs:
       - name: Build with VitePress
         run: pnpm run blog:build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5.0.0
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v4.0.0
+        if: success() && github.event_name != 'pull_request' && github.repository == 'Super12138/super12138.github.io'
+        env:
+          PROJECT_NAME: ${{ secrets.PROJECT_NAME }}
         with:
-          path: blog/.vitepress/dist
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5.0.0
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          environment: production
+          command: pages deploy blog/.vitepress/dist --project-name=$PROJECT_NAME
