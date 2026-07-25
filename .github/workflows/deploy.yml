@@ -46,7 +46,7 @@ jobs:
         uses: cloudflare/wrangler-action@v4.0.0
         if: success() && github.event_name != 'pull_request' && github.repository == 'Super12138/super12138.github.io'
         env:
-          PROJECT_NAME: ${{ secrets.PROJECT_NAME }}
+          PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           command: pages deploy blog/.vitepress/dist --project-name=$PROJECT_NAME
