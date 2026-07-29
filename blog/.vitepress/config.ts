@@ -115,4 +115,7 @@ export default defineConfig({
             lazyLoading: true,
         },
     },
+    sitemap: {
+        hostname: "https://super12138.pages.dev"
+    },
 });
